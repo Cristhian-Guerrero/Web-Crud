@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %} {%block title%}Acerca de{% endblock %} 
+
+{%block background%}{% load static%}{% static 'core/img/about-bg.jpg' %}{%endblock%} 
+
+{%block headers%}
+<h1>Cristhian Guerrero</h1>
+<span class="subheading">Ingeniero Informatico</span>
+{%endblock%} 
+
+{%block content%}
+<div class="row">
+  <div class="col-lg-3 col-md-4 offset-lg-1">
+    <img
+      class="img-fluid avatar"
+      src="{% static 'core/img/avatar.jpg' %}"
+      alt=""
+    />
+  </div>
+  <div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Cristhian Guerrero</h2>
+    <p>
+      Soy Cristhian Guerrero, un ingeniero informático apasionado por la inteligencia artificial y la ciberseguridad. Mi objetivo es explorar y aplicar las últimas tecnologías en estos campos para crear soluciones innovadoras y seguras. Con una sólida formación en ingeniería informática y una pasión por el aprendizaje continuo, me dedico a investigar y desarrollar sistemas inteligentes que impulsen el progreso y protejan la información en la era digital. Mi compromiso es contribuir al avance de la sociedad, aprovechando el poder de la inteligencia artificial de manera ética y fomentando la conciencia sobre la importancia de la ciberseguridad. A través de mi experiencia y conocimientos, busco colaborar en proyectos desafiantes y formar parte de un equipo que comparta mi visión de un futuro tecnológico seguro y sostenible.
+    <p>
+      
+  </div>
+</div>
+
+{% endblock %}
